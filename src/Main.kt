@@ -1,10 +1,8 @@
-import java.io.BufferedReader
-import java.io.InputStreamReader
+
 
 fun main() {
     val calculator = Calculator()
-    val br = BufferedReader(InputStreamReader(System.`in`))
-    val input = br.readLine().replace(" ", "")
+    val input = readln().replace(" ", "")
 
     val result = calculator.doIt(input)
     println(result)
